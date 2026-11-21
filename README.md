@@ -1,4 +1,4 @@
-# SigmaOS-arch-emscripten
+# SigmaOS-emscripten
 
 GitHub description is a placeholder; component scope remains unclassified.
 

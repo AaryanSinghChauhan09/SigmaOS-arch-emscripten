@@ -1,50 +1,50 @@
-# SigmaOS-SigmaOS-arch-emscripten Component Wiki
+# SigmaOS-SigmaOS-emscripten Component Wiki
 
 ## Overview
-SigmaOS-SigmaOS-arch-emscripten provides GitHub description is a placeholder; component scope remains unclassified. for the SigmaOS operating system. It demonstrates the subsystem and integration within the SigmaOS ecosystem, following the principles of clear abstraction and deterministic initialization.
+SigmaOS-SigmaOS-emscripten provides GitHub description is a placeholder; component scope remains unclassified. for the SigmaOS operating system. It demonstrates the subsystem and integration within the SigmaOS ecosystem, following the principles of clear abstraction and deterministic initialization.
 
 ## Principles
 - Single Responsibility
-- SigmaOS-arch-emscripten Abstraction
-- Fail-Fast on SigmaOS-arch-emscripten Initialization Errors
-- Deterministic SigmaOS-arch-emscripten Setup
-- Clear Abstraction Over SigmaOS-arch-emscripten APIs
-- Composition over Inheritance for SigmaOS-arch-emscripten extensions
+- SigmaOS-emscripten Abstraction
+- Fail-Fast on SigmaOS-emscripten Initialization Errors
+- Deterministic SigmaOS-emscripten Setup
+- Clear Abstraction Over SigmaOS-emscripten APIs
+- Composition over Inheritance for SigmaOS-emscripten extensions
 
 ## Architecture
-SigmaOS-SigmaOS-arch-emscripten follows a SigmaOS-arch-emscripten pattern:
-- **SigmaOS-arch-emscripten Core**: Provides SigmaOS-arch-emscripten support, SigmaOS-arch-emscripten management, and SigmaOS-arch-emscripten tracking
-- **Management**: Supports SigmaOS-arch-emscripten management, SigmaOS-arch-emscripten configuration, and SigmaOS-arch-emscripten lifecycle
-- **Tracking**: Supports SigmaOS-arch-emscripten status, SigmaOS-arch-emscripten tracking, and SigmaOS-arch-emscripten lifecycle
-- **Error Handling**: Fail-fast on invalid SigmaOS-arch-emscripten configurations or unsupported SigmaOS-arch-emscripten types
+SigmaOS-SigmaOS-emscripten follows a SigmaOS-emscripten pattern:
+- **SigmaOS-emscripten Core**: Provides SigmaOS-emscripten support, SigmaOS-emscripten management, and SigmaOS-emscripten tracking
+- **Management**: Supports SigmaOS-emscripten management, SigmaOS-emscripten configuration, and SigmaOS-emscripten lifecycle
+- **Tracking**: Supports SigmaOS-emscripten status, SigmaOS-emscripten tracking, and SigmaOS-emscripten lifecycle
+- **Error Handling**: Fail-fast on invalid SigmaOS-emscripten configurations or unsupported SigmaOS-emscripten types
 
 ## API
 The component provides the following public APIs:
--  - Manage a SigmaOS-arch-emscripten by given configuration
--  - Register a SigmaOS-arch-emscripten by given name
--  - Get SigmaOS-arch-emscripten status and SigmaOS-arch-emscripten availability
--  - Track SigmaOS-arch-emscripten management and SigmaOS-arch-emscripten tracking
-- Error types for SigmaOS-arch-emscripten failure scenarios or unsupported SigmaOS-arch-emscripten types
+-  - Manage a SigmaOS-emscripten by given configuration
+-  - Register a SigmaOS-emscripten by given name
+-  - Get SigmaOS-emscripten status and SigmaOS-emscripten availability
+-  - Track SigmaOS-emscripten management and SigmaOS-emscripten tracking
+- Error types for SigmaOS-emscripten failure scenarios or unsupported SigmaOS-emscripten types
 
 ## Test Structure (Arrange-Act-ASSERT)
 All tests follow the AAA pattern:
-1. **Arrange**: Set up test environment with specific SigmaOS-arch-emscripten configuration
-2. **Act**: Execute the code under test (SigmaOS-arch-emscripten init, SigmaOS-arch-emscripten management)
-3. **Assert**: Verify the expected SigmaOS-arch-emscripten results
+1. **Arrange**: Set up test environment with specific SigmaOS-emscripten configuration
+2. **Act**: Execute the code under test (SigmaOS-emscripten init, SigmaOS-emscripten management)
+3. **Assert**: Verify the expected SigmaOS-emscripten results
 
 Example:
 
 
 ## Development
 - Follows Rust best practices with 
-- SigmaOS-arch-emscripten initialization is best-effort; gracefully degrades on unsupported configurations
-- Comprehensive error types for all SigmaOS-arch-emscripten failure scenarios
-- Unit tests provided for SigmaOS-arch-emscripten management and configuration
-- Integration tests for full SigmaOS-arch-emscripten system with actual SigmaOS-arch-emscripten integration
+- SigmaOS-emscripten initialization is best-effort; gracefully degrades on unsupported configurations
+- Comprehensive error types for all SigmaOS-emscripten failure scenarios
+- Unit tests provided for SigmaOS-emscripten management and configuration
+- Integration tests for full SigmaOS-emscripten system with actual SigmaOS-emscripten integration
 
 ## TODO
-- Add support for additional SigmaOS-arch-emscripten types
-- Expand SigmaOS-arch-emscripten capabilities (SigmaOS-arch-emscripten features, SigmaOS-arch-emscripten configurations, SigmaOS-arch-emscripten tracking)
-- Add lifecycle features (SigmaOS-arch-emscripten tracking, SigmaOS-arch-emscripten lifecycle, SigmaOS-arch-emscripten propagation)
-- Create integration tests with actual SigmaOS-arch-emscripten systems and SigmaOS-arch-emscripten integration
-- Implement SigmaOS-arch-emscripten persistence and SigmaOS-arch-emscripten state management
+- Add support for additional SigmaOS-emscripten types
+- Expand SigmaOS-emscripten capabilities (SigmaOS-emscripten features, SigmaOS-emscripten configurations, SigmaOS-emscripten tracking)
+- Add lifecycle features (SigmaOS-emscripten tracking, SigmaOS-emscripten lifecycle, SigmaOS-emscripten propagation)
+- Create integration tests with actual SigmaOS-emscripten systems and SigmaOS-emscripten integration
+- Implement SigmaOS-emscripten persistence and SigmaOS-emscripten state management

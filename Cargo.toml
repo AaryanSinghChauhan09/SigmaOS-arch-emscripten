@@ -1,10 +1,10 @@
 [package]
-name = "arch-emscripten"
+name = "sigmaos-emscripten"
 version = "0.1.0"
 edition = "2021"
-description = "SigmaOS SigmaOS-arch-emscripten component - SigmaOS component"
+description = "SigmaOS SigmaOS-emscripten component - SigmaOS component"
 license = "MIT"
-repository = "https://github.com/AaryanSinghChauhan09/SigmaOS-arch-emscripten"
+repository = "https://github.com/AaryanSinghChauhan09/SigmaOS-emscripten"
 
 [dependencies]
 thiserror = "2"
